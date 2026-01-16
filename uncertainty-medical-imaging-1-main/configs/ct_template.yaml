@@ -1,0 +1,9 @@
+# Template config for running the pipeline on an approved CT dataset (CT-RATE is not distributed).
+model:
+  image_size: 512
+  # adapt CT slice handling / aggregation settings here
+  slice_aggregation: mean
+
+preprocessing:
+  # add CT-specific normalization/denoising here
+  gaussian_denoise_sigma: 0.5

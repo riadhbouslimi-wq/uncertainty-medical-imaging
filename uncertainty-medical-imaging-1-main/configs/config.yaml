@@ -1,0 +1,15 @@
+model:
+  image_size: 512
+  image_embed_dim: 1024
+  kg_embed_dim: 1024
+  fused_dim: 1024
+  num_classes: 2
+  dropout: 0.2
+  mc_samples: 20
+  beta: 1.5
+
+training:
+  batch_size: 16
+  learning_rate: 5e-5
+  weight_decay: 1e-2
+  smoke_steps: 3
