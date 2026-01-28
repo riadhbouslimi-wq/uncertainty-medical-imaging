@@ -1,5 +1,4 @@
-# UG-GraphT5 — Reproducibility Repository (Peer Review)
-
+# UG-GraphT5
 This repository accompanies the manuscript:
 
 **A Knowledge-Guided and Uncertainty-Calibrated Multimodal Framework for Fracture Diagnosis and Radiology Report Generation**
